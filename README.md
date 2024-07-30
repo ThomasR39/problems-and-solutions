@@ -5,6 +5,14 @@ Problems and Solutions is a collection of my Swift solutions for the problems gi
 ## Prerequisites 
 - Xcode command line tools with Swift 6 toolchain.
 
+## Usage
+
+To build and run the `IsUnique` binary: 
+```bash
+cd arrays-and-strings/is-unique
+swift run IsUnique foo
+```
+
 ## Running Tests
 
 All tests use the [Swift Testing](https://github.com/apple/swift-testing) framework, which requires the Swift 6 toolchain.
@@ -19,5 +27,6 @@ xcodebuild test -scheme IsUnique -destination 'platform=macOS,arch=arm64'
 
 ## Acknowledgements
 - <https://www.swift.org/getting-started/cli-swiftpm>
+- <https://github.com/apple/swift-argument-parser>
 - <https://github.com/apple/swift-testing>
 - <https://www.crackingthecodinginterview.com>
